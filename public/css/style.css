@@ -1,0 +1,565 @@
+.section1{
+    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%), url("../assets/main-bg.jpg"); 
+    height: 960px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    /* background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%); */
+    
+  }
+  
+  nav{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding: 5px;
+  }
+  
+  .nav-link{
+    font-size: 12px;
+    color:white;
+  }
+  
+  #logo{
+    font-size: 24px;
+  }
+  
+  #nav-pages{
+    display: inline-flex;
+  }
+  
+  h1{
+  position: relative;
+  font-family: Arial;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  
+  #landingtxt1{
+     margin-top: 15%; 
+    font-weight: bold;
+    font-size: 72px;
+  line-height: 83px; 
+  }
+  
+  #featuretxt2{
+    font-size: 56px;
+    line-height: 64px;
+  }
+  
+  h3{
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  }
+  
+  #landingtxt2{
+    margin-top: 2%;
+  }
+  
+  #landingtxt3{
+    margin-top: 10%;
+  }
+  
+  .btn{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 260px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+  }
+  
+  #landingbtn{
+    margin-top: 5%;
+  }
+  
+  h6{
+  position: static;
+  display: block;
+  margin-top: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  
+  .caret-down{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  .section2{
+    background-image: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), url("../assets/the-games-bg.jpg"); 
+    height: 960px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  
+  #thegamesCol1{
+    position: relative;
+    margin-top: 254px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #thegamesRow2{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    border-radius: 100%;  /* add border-radius */
+  }
+  
+  .carousel-inner{
+    padding-left:10%;
+    padding-right: 10%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    border-radius: 10%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: url(../assets/caret-right.svg);
+    /* margin-left: 150%; */
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: url(../assets/caret-left.svg);
+    
+  }
+  
+  .section3{
+    background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url("../assets/features.jpg"); 
+    height: 960px;
+    background-color: grey; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+  }
+  
+  #featuresRow1{
+    position: relative;
+    margin-top: 20%;
+    margin-right: 15%;
+  }
+  
+  ul{
+    margin-top: 15%;
+  }
+  li{
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 2px;
+  list-style-type: circle;
+  color: #FFB548;
+  }
+  
+  p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  
+  text-align: justify;
+  
+  color: #FFFFFF;
+  }
+  
+  #featurestxt1{
+    text-align: left;
+  }
+  
+  
+  .accordion-button{
+    background-color: transparent;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 2px;
+  border: none;
+  
+  color: #FFB548;
+  }
+  
+  .accordion-button.collapsed{
+    border: none;
+  }
+  
+  .accordion-button:not(.collapsed){
+    background-color: transparent;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #FFB548;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+    border: none;
+  }
+  
+  
+  
+  .accordion-item{
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  border: none;
+  }
+  
+  .accordion-header[data-bs-toggle]{
+    background-color : transparent;
+    color: transparent;
+    font-family: Arial;
+  }
+  
+  .section4{
+    background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url("../assets/requirements.png"); 
+    height: 960px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  
+  #requirementtxt1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  #requirementtxt2{
+    text-align: left;
+  }
+  
+  #requirementRow{
+    margin-left: 8%;
+    margin-right: 5%;
+  }
+  
+  /* #tableoutline{
+    position: relative;
+    z-index: 1;
+  } */
+  
+  .border-none{
+    background-image: url("../assets/requirement.svg");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+  color: #FFFFFF;
+  position: relative;
+  border-collapse: collapse;
+    border: none;
+  /* margin-bottom: 52%;  */
+  /* !!! gimana biar container ngikut image??? */
+    
+  }
+  
+  
+  .border-none td {
+    border: 1px solid grey;
+    padding: 5%;
+  }
+  
+  .border-none tr:first-child td {
+    border-top: none;
+  }
+  
+  .border-none tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .border-none tr td:first-child {
+    border-left: none;
+  }
+  
+  .border-none tr td:last-child {
+    border-right: none;
+  }
+  
+  
+  
+  .reqHeader{
+    text-align: justify;
+    color: #FFB548;
+  }
+  
+  .section5{
+    background-image: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url("../assets/top-score-bg.png"),url("../assets/top-score-bg-2.jpg"); 
+    height: 960px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+  }
+  
+  #topscoreRow{
+    margin-top: 10%;
+  }
+  
+  .tweet{
+    height: 140px;
+    width: 420px;
+    background-color: #212121;
+    border-radius: 3%;
+    margin-bottom: 10%;
+    padding: 0.3%;
+  }
+  
+  #tweet1, #tweet3{
+    margin-left: 10%
+  }
+  
+  .tweettxt1{
+    text-align: justify;
+    color:  #FFB548;
+    font-size: 20px;
+    margin:0;
+  }
+  .tweettxt2{
+    text-align: justify;
+    margin:0;
+    position: relative;
+    color: grey;
+  }
+  
+  .tweetquote{
+    text-align: left;
+    margin: 2%;
+  
+  }
+  
+  .tweetpic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  #tweetpicbg{
+    background-image: url(../assets/Ellipse.png);
+    background-size: 50px;
+    background-repeat:no-repeat;
+    margin-left: 4%;
+    margin-right: 3%;
+    height: 50px;
+    width: 50px;
+    
+  
+  }
+  
+  .tweetdate{
+    text-align: left;
+    color: grey;
+  }
+  
+  
+  
+  .section6{
+    background-color: #0a0a0a;
+    
+    height: 960px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+  }
+  
+  #newsletterRow{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .newslettertxt{
+    text-align: left;
+  }
+  
+  .emailbox{
+    display: inline-flex;
+  }
+  
+  #Subscribebtn{
+    margin-left: 5%;
+  }
+  
+  .form-control{
+    background-color: grey;
+    border-color: transparent;
+    
+  }
+  
+  .form-control::placeholder{
+    color: #F3AF34;
+  }
+  
+  .footer{
+    /* clear: both; */
+      position: relative;
+    margin-top: 19%;
+    color: rgb(173, 151, 151);
+    text-align: center;
+    background-color: #0a0a0a ;
+  }
+  
+  
+  .privacytxt{
+    text-align: right;
+  }
+  
+  #caret-down{
+    position: absolute;
+    bottom:0;
+    color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 768px){
+    #landingtxt1{
+      font-size: 48px;
+    }
+    #logoSuit{
+      margin-left: 30%;
+    } 
+  
+    #thegamesRow2{
+      display: block;
+    }
+    .suitSymbols{
+      max-width:200%;
+      max-height:200%;
+    }
+  }
+  
+  @media screen and (min-width: 768px){
+    .suitSymbols{
+      max-width:75%;
+      max-height:75%;
+    }
+  }
+  
+  #suit{
+  
+  background-color: #9C835F;
+  }
+  
+  #suitHeader{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  #back{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  
+  color: #724C21;
+  
+  }
+  
+  #logoSuit{
+    margin-top: 20%;
+  }
+  
+  #rockPaperScissor{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 49px;
+  text-align: left;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  
+  color: #F9B23D;
+  }
+  
+  #suitGame{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .suitPlayers{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  color: #000000;
+  
+  }
+  
+  #suitVS{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  color: #BD0000;
+  }
+  
+  a{
+    text-decoration:none;
+  }

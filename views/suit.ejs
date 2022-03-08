@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Game Suit</title>
+</head>
+<body id = "suit">
+
+        <div class="row" id="suitHeader">
+            <div class="col-1" id="suitBack"><h1 id="back"><</h1></a></div>
+            
+    <script type="text/javascript">
+        document.getElementById("suitBack").onclick = function () {
+            location.href = "/";
+        };
+    </script>
+            <div class="col-1"><img src="./assets/logo 1.png" id="logoSuit"></div>
+            <div class="col-1"></div>
+            <div class="col"><h1 id="rockPaperScissor">ROCK PAPER SCISSOR</h1></div>
+        </div>
+        <br>
+        <div class="row" id="suitGame">
+            <div class="col"><h3 class="suitPlayers">PLAYER 1</h3></div>
+            <div class="col"></div>
+            <div class="col"><h3 class="suitPlayers">COM</h3></div>
+        </div>
+        <div class="row" id="suitGame">
+            <div class="col-2 d-flex justify-content-center text-center" ><img src="./assets/batu.png" class="suitSymbols" id="playerHandR" onclick="playGame(0)"></div>
+            <div class="col"></div>
+            <div class="col-2 d-flex justify-content-center text-center"><img src="./assets/batu.png" class="suitSymbols" id="comHandR"></div>
+        </div>
+        <div class="row" id="suitGame">
+            <div class="col-2 d-flex justify-content-center text-center"><img src="./assets/kertas.png" class="suitSymbols" id="playerHandP" onclick="playGame(1)"></div>
+            <div class="col"></div>
+            <div class="col" id="suitVSCol"><h1 id="suitVS">VS</h1></div>
+            <div class="col"></div>
+            <div class="col-2 d-flex justify-content-center text-center"><img src="./assets/kertas.png" class="suitSymbols" id="comHandP"></div>
+        </div>
+        <div class="row" id="suitGame">
+            <div class="col-2 d-flex justify-content-center text-center"><img src="./assets/gunting.png" class="suitSymbols" id="playerHandS" onclick="playGame(2)"></div>
+            <div class="col"></div>
+            <div class="col-2 d-flex justify-content-center text-center"><img src="./assets/gunting.png" class="suitSymbols" id="comHandS"></div>
+        </div>
+        <div class="row" id="suitGame">
+            <div class="col"></div>
+            <div class="col d-flex justify-content-center text-center"><a href= /suit><img src="./assets/refresh.png" class="suitSymbols"></a></div>
+            <div class="col"></div>
+        </div>
+
+    <script type="text/javascript" src="./js/suit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
+</body>
+</html>
